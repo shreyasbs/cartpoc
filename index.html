@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<!-- Basic -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Mobile Metas -->
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<!-- Site Metas -->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Site CSS -->
+<link rel="stylesheet" href="style.css">
+
+<head>
+    <title>Project</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="head">
+            <h1>All Items</h1>
+            <button id="btnItemAddNotification"></button>
+        </div>
+        <div class="content-box">
+            <div class="left-box">
+
+            </div>
+            <div class="right-box">
+                <div class="border">
+                    <table id="itemCart">
+                       
+                    </table>
+                </div>
+            </div>
+
+            <div class="right-box">
+                <div class="border">
+                    <h4>Total</h4>
+                    <table id="cartTotal">
+                        <tr>
+                            <td>Item <b id="cartTotalBTag">(0)</b> : </td>
+                            <td id="totalItemPrice"> </td>
+                        </tr>
+                        <tr>
+                            <td>Discount : </td>
+                            <td id="totalDiscount"></td>
+                        </tr>
+                        <tr>
+                            <td>Type Discount : </td>
+                            <td>-$0</td>
+                        </tr>
+                        <tr></tr>
+                        <tfoot>
+                            <tr>
+                                <td>Order Total : </td>
+                                <td id="totalPrice"> </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
+<script type="text/javascript" src="http://localhost:88/data.json"></script>
+<script type="text/javascript" src="cart.js"></script>
