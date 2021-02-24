@@ -5,7 +5,7 @@ let cartItemLength = 0;
 //document.getElementById('itemCartBtag').innerHTML = cartItemLength;
 
 //hosted path
-var api = "http://localhost:88/";
+var api = "https://shreyasbs.github.io/cartpoc/";
 let dataFromJson;
 //this method is to hide the notification on load of the page
 function notificationButtonDisplay() {
