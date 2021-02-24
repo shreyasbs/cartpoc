@@ -95,7 +95,7 @@ function makeList(listData) {
 
         //adds div item to div left-box
         mainContainer[0].appendChild(listContainer);
-
+ 
     }
 }
 
